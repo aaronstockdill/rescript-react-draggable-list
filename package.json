@@ -1,0 +1,25 @@
+{
+  "name": "rescript-react-draggable-list",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Rescript bindings for react-draggable-list",
+  "scripts": {
+    "build": "./node_modules/rescript/rescript format -all && ./node_modules/rescript/rescript",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rescript",
+    "react",
+    "draggable list"
+  ],
+  "author": "Aaron Stockdill",
+  "license": "MIT",
+  "devDependencies": {
+    "@rescript/react": "^0.10.3",
+    "rescript": "^9.1.4"
+  },
+  "peerDependencies": {
+    "@rescript/react": "^0.10.3",
+    "react-draggable-list": "^4.0.4"
+  }
+}
